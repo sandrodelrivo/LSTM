@@ -40,7 +40,7 @@ def main():
                 print(" -- For step:", step, "accuracy is: {:.3f}".format(accuracy))
 
                 if acc_dif < 0.0001:
-                    print("EARLY STOPPING")
+                    print("FULL ACCURACY REACHED: STOPPING")
                     return 0
 
     return 0
